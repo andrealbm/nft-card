@@ -1,0 +1,84 @@
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: Outfit;
+    padding: 0;
+    margin: 0;
+}
+
+.card {
+    width: 300px;
+    height: auto;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.card .image-hero {
+    width: 100%;
+    border-radius: 10px;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+    font-size: 25px;
+}
+
+.card-info {
+    font-weight: 300;
+    font-size: 16px;
+    color: hsl(215, 51%, 70%);
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+    margin-top: 10px;
+}
+
+span {
+    color: white;
+}
+
+.image-avatar {
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.card-box {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 2px solid hsl(215, 32%, 27%);
+}
+
+.box-item {
+    display: flex;
+}
+
+.box-item p {
+    margin: 0;
+    padding: 0;
+}
+
+.icon {
+    margin-right: 5px;
+}
+
+.cyan {
+    color: hsl(178, 100%, 50%);
+}
+
+.soft-blue {
+    color: hsl(215, 51%, 70%)
+}
